@@ -1,0 +1,20 @@
+# Tests directory (ignored as requested)
+tests/
+
+# Compiled object files and binaries
+*.o
+src/*.o
+architect-os
+
+# Temporary runtime files, pipes, and sockets
+*.sock
+*.fifo
+/tmp/*
+
+# Editor configurations and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*~
+*.swp
